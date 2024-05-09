@@ -15,7 +15,7 @@ st.set_page_config(page_title="Health Assistant",
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
-diabetes_model = pickle.load(open('Multiple_disease_prediction/saved models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('C:/Users/krish/Downloads/project/saved models/diabetes_model.sav','rb'))
 heart_disease_model = pickle.load(open('C:/Users/krish/Downloads/project/saved models/heart_disease_model.sav','rb'))
 parkinsons_model = pickle.load(open('C:/Users/krish/Downloads/project/saved models/parkinsons_model.sav','rb'))
 

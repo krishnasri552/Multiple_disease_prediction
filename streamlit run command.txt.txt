@@ -1,1 +1,1 @@
-streamlit run "C:\Users\krish\Downloads\project\multiple disease pred.py"
+streamlit run "C:\Users\krish\Downloads\project\app.py"

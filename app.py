@@ -16,9 +16,10 @@ st.set_page_config(page_title="Health Assistant",
 working_dir = os.path.dirname(os.path.abspath(__file__))
 diabetes_model_path = os.path.join(working_dir, 'saved models', 'diabetes_model.sav')
 diabetes_model = pickle.load(open(diabetes_model_path, 'rb'))
-heart_disease_model = pickle.load(open('C:/Users/krish/Downloads/project/saved models/heart_disease_model.sav','rb'))
-parkinsons_model = pickle.load(open('C:/Users/krish/Downloads/project/saved models/parkinsons_model.sav','rb'))
-
+heart_disease_model_path = os.path.join(working_dir, 'saved models', 'heart_disease_model.sav')
+heart_disease_model = pickle.load(open(heart_disease_model_path, 'rb'))
+parkinsons_model_path = os.path.join(working_dir, 'saved models', 'parkinsons_model.sav')
+parkinsons_model = pickle.load(open(parkinsons_model_path, 'rb'))
 with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
                            ['Diabetes Prediction',
